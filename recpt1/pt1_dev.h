@@ -3,54 +3,54 @@
 #define _PT1_DEV_H_
 
 char *bsdev[NUM_BSDEV] = {
-    "/dev/ptx0.s0",
-    "/dev/ptx0.s1",
-    "/dev/ptx1.s0",
-    "/dev/ptx1.s1",
-    "/dev/ptx2.s0",
-    "/dev/ptx2.s1",
-    "/dev/ptx3.s0",
-    "/dev/ptx3.s1"
+    "/dev/px4video0.0s",
+    "/dev/px4video0.1s",
+    "/dev/px4video1.0s",
+    "/dev/px4video1.1s",
+    "/dev/px4video2.0s",
+    "/dev/px4video2.1s",
+    "/dev/px4video3.0s",
+    "/dev/px4video3.1s"
 };
 char *isdb_t_dev[NUM_ISDB_T_DEV] = {
-    "/dev/ptx0.t0",
-    "/dev/ptx0.t1",
-    "/dev/ptx1.t0",
-    "/dev/ptx1.t1",
-    "/dev/ptx2.t0",
-    "/dev/ptx2.t1",
-    "/dev/ptx3.t0",
-    "/dev/ptx3.t1"
+    "/dev/px4video0.2t",
+    "/dev/px4video0.3t",
+    "/dev/px4video1.2t",
+    "/dev/px4video1.3t",
+    "/dev/px4video2.2t",
+    "/dev/px4video2.3t",
+    "/dev/px4video3.2t",
+    "/dev/px4video3.3t"
 };
 char *bsmib[NUM_BSDEV] = {
-    "dev.ptx.0.s0",
-    "dev.ptx.0.s1",
-    "dev.ptx.1.s0",
-    "dev.ptx.1.s1",
-    "dev.ptx.2.s0",
-    "dev.ptx.2.s1",
-    "dev.ptx.3.s0",
-    "dev.ptx.3.s1"
+    "dev.px4.0.0s",
+    "dev.px4.0.1s",
+    "dev.px4.1.0s",
+    "dev.px4.1.1s",
+    "dev.px4.2.0s",
+    "dev.px4.2.1s",
+    "dev.px4.3.0s",
+    "dev.px4.3.1s"
 };
 char *isdb_t_mib[NUM_ISDB_T_DEV] = {
-    "dev.ptx.0.t0",
-    "dev.ptx.0.t1",
-    "dev.ptx.1.t0",
-    "dev.ptx.1.t1",
-    "dev.ptx.2.t0",
-    "dev.ptx.2.t1",
-    "dev.ptx.3.t0",
-    "dev.ptx.3.t1"
+    "dev.px4.0.2t",
+    "dev.px4.0.3t",
+    "dev.px4.1.2t",
+    "dev.px4.1.3t",
+    "dev.px4.2.2t",
+    "dev.px4.2.3t",
+    "dev.px4.3.2t",
+    "dev.px4.3.3t"
 };
 char *lnb_mib[NUM_BSDEV] = {
-    "dev.ptx.0.lnb",
-    "dev.ptx.0.lnb",
-    "dev.ptx.1.lnb",
-    "dev.ptx.1.lnb",
-    "dev.ptx.2.lnb",
-    "dev.ptx.2.lnb",
-    "dev.ptx.3.lnb",
-    "dev.ptx.3.lnb"
+    "dev.px4.0.0s.lnb",
+    "dev.px4.0.1s.lnb",
+    "dev.px4.1.0s.lnb",
+    "dev.px4.1.1s.lnb",
+    "dev.px4.2.0s.lnb",
+    "dev.px4.2.1s.lnb",
+    "dev.px4.3.0s.lnb",
+    "dev.px4.3.1s.lnb"
 };
 
 // 変換テーブル(ISDB-T用)
